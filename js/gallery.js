@@ -17,7 +17,11 @@ function showGallery(year, event) {
     const photos = [
       "gallery/2025/1.jpg",
       "gallery/2025/2.jpg",
-      "gallery/2025/3.jpg"
+      "gallery/2025/3.jpg",
+      "gallery/2025/4.jpg",
+      "gallery/2025/5.jpg",
+      "gallery/2025/6.jpg",
+      "gallery/2025/7.jpg"
     ];
 
     photos.forEach(src => {
