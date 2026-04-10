@@ -1,32 +1,32 @@
 const members = [
-  { name: "Abdullah Zikri", ig: "_zqryyy", photo: "1.jpg" },
+  { name: "Abdullah Zikri", ig: "abdulahzikri_", photo: "1.jpg" },
   { name: "Abdurrahman Al Ghifari", ig: "alghip_", photo: "default.jpg" },
   { name: "Adel Janitra Basitul Latif", ig: "godelbedel", photo: "default.jpg" },
   { name: "Adzkiya Vidy Syawallanaa", ig: "adzkiya.vidyy", photo: "4.jpg" },
   { name: "Alvin Musalim Wildan", ig: "alvino.4dijaya", photo: "default.jpg" },
 
-  { name: "Dimas Rifqi Putra Jaelany", ig: "", photo: "default.jpg" },
+  { name: "Dimas Rifqi Putra Jaelany", ig: "dimmjael", photo: "19.jpg" },
   { name: "Fadhiyah Syafiqah Ramadhani", ig: "ffiiqa_", photo: "7.jpg" },
   { name: "Farhan Alhusein", ig: "itsfhanz_", photo: "8.jpg" },
   { name: "Farrel Naufal Priyonggo", ig: "farrelnp_", photo: "default.jpg" },
   { name: "Hadisty Qurratu'Ain", ig: "hadistyyy", photo: "10.jpg" },
 
   { name: "Hanifah Alyarahmah", ig: "cuteracoon6", photo: "default.jpg" },
-  { name: "Ma'rifatus Solihah", ig: "m.rftsslhh", photo: "default.jpg" },
+  { name: "Ma'rifatus Solihah", ig: "m.rftsslhh", photo: "20.jpg" },
   { name: "Mirza Arif Syahbana", ig: "", photo: "default.jpg" },
-  { name: "Muhammad Naufal Waiz", ig: "", photo: "default.jpg" },
-  { name: "Muhammad Sail Mustajab", ig: "uh.sail.m", photo: "default.jpg" },
+  { name: "Muhammad Naufal Waiz", ig: "constantinofall", photo: "21.jpg" },
+  { name: "Muhammad Sail Mustajab", ig: "muh.sail.m", photo: "default.jpg" },
 
   { name: "Nabilla Gaitsha Diandra", ig: "gaitshanabilla", photo: "16.jpg" },
   { name: "Nayla Agusthia Mirda", ig: "", photo: "default.jpg" },
   { name: "Philip Joshua Maloma Sihotang", ig: "philipsihotang", photo: "18.jpg" },
-  { name: "Piala Dewangga Pudjiyono", ig: "ialadewangga_", photo: "default.jpg" },
+  { name: "Piala Dewangga Pudjiyono", ig: "pialadewangga_", photo: "default.jpg" },
   { name: "Raden Radhitya Rizqi Putra Sulistiyo", ig: "", photo: "default.jpg" },
 
-  { name: "Raihan Saputra", ig: "rhansptra", photo: "default.jpg" },
-  { name: "Razesh Al Razni Maulana", ig: "", photo: "default.jpg" },
-  { name: "Satria Arif Putra Yulianto", ig: "atriaarifputra", photo: "default.jpg" },
-  { name: "Senry Athena Rasya", ig: "", photo: "default.jpg" },
+  { name: "Raihan Saputra", ig: "rrhansptra", photo: "22.jpg" },
+  { name: "Razesh Al Razni Maulana", ig: "razesh.87", photo: "default.jpg" },
+  { name: "Satria Arif Putra Yulianto", ig: "satriaarifputra", photo: "default.jpg" },
+  { name: "Senry Athena Rasya", ig: "senarsya9", photo: "default.jpg" },
   { name: "Wahyu Andhika", ig: "", photo: "default.jpg" }
 ];
 

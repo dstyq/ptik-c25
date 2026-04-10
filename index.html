@@ -64,13 +64,24 @@
     <section id="gallery" class="section">
         <h2>Gallery</h2>
 
+        <!-- tombol tahun -->
         <div class="gallery-buttons">
             <button onclick="showGallery('2025', event)" class="active">2025</button>
             <button onclick="showGallery('2026', event)">2026</button>
         </div>
 
+        <!-- 🔥 FILTER CAKEP -->
+        <div class="gallery-filter">
+            <button onclick="showAllGallery(); setActiveFilter(this)" class="active">All</button>
+            <button onclick="showGirlsGallery(); setActiveFilter(this)">Girls only</button>
+            <button onclick="showBoysGallery(); setActiveFilter(this)">Boy only</button>
+        </div>
+
+        <!-- grid -->
         <div id="galleryGrid" class="gallery-grid"></div>
     </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="section contact">
         <h2>Stay Connected</h2>
         <p class="contact-desc">
@@ -84,13 +95,16 @@
         </a>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2025 PTIK Class C · State University of Jakarta</p>
         <small>Made by Class C PTIK 2025</small>
     </footer>
 
+    <!-- JS -->
     <script src="js/members.js"></script>
     <script src="js/gallery.js"></script>
 </body>
 
 </html>
+```
