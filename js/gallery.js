@@ -1,6 +1,5 @@
 const galleryGrid = document.getElementById("galleryGrid");
 
-// DATA
 const galleryData = {
   "smt1": {
     all: [
@@ -54,11 +53,21 @@ const galleryData = {
       "gallery/smt2/07.jpg",
       "gallery/smt2/08.jpg",
       "gallery/smt2/09.jpg",
-      "gallery/smt2/010.jpg"
+      "gallery/smt2/010.jpg",
+      "gallery/smt2/011.jpg",
+      "gallery/smt2/012.jpg",
+      "gallery/smt2/013.jpg",
+      "gallery/smt2/014.jpg",
+      "gallery/smt2/015.jpg",
+      "gallery/smt2/016.jpg",
+
     ],
     cowo: [
       "gallery/smt2/001.jpg",
-      "gallery/smt2/002.jpg"
+      "gallery/smt2/002.jpg",
+      "gallery/smt2/003.jpg",
+      "gallery/smt2/004.jpg"
+
     ]
   }
 };
@@ -91,7 +100,6 @@ function showGallery(year, event) {
 
   if (event) event.target.classList.add("active");
 
-  // 🔥 kalau ga ada datanya → coming soon (buat 2027 dll)
   if (!galleryData[year]) {
     galleryGrid.innerHTML =
       "<p style='color:#94a3b8'>Coming Soon ✨</p>";
@@ -101,7 +109,6 @@ function showGallery(year, event) {
   renderGallery();
 }
 
-// FILTER
 function showGirlsGallery() {
   currentFilter = "cewe";
   renderGallery();
@@ -117,7 +124,6 @@ function showAllGallery() {
   renderGallery();
 }
 
-// ACTIVE BUTTON
 function setActiveFilter(btn) {
   document
     .querySelectorAll(".gallery-filter button")
