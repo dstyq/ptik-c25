@@ -26,7 +26,9 @@ const galleryData = {
       "gallery/smt1/001.jpg",
       "gallery/smt1/002.jpg",
       "gallery/smt1/003.jpg",
-      "gallery/smt1/004.jpg"
+      "gallery/smt1/004.jpg",
+      "gallery/smt1/005.jpg"
+
     ]
   },
 
@@ -37,6 +39,10 @@ const galleryData = {
       "gallery/smt2/3.jpg",
       "gallery/smt2/4.jpg",
       "gallery/smt2/5.jpg",
+      "gallery/smt2/6.jpg",
+      "gallery/smt2/7.jpg",
+      "gallery/smt2/8.jpg"
+
     ],
     cewe: [
       "gallery/smt2/01.jpg",
@@ -46,6 +52,9 @@ const galleryData = {
       "gallery/smt2/05.jpg",
       "gallery/smt2/06.jpg",
       "gallery/smt2/07.jpg",
+      "gallery/smt2/08.jpg",
+      "gallery/smt2/09.jpg",
+      "gallery/smt2/010.jpg"
     ],
     cowo: [
       "gallery/smt2/001.jpg",
