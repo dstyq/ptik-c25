@@ -15,7 +15,7 @@
     <!-- NAVBAR -->
     <header class="navbar">
         <div class="logo">
-            <img src="assets/logo/unj.jpg">
+            <img src="assets/logo/unj.jpg" alt="Logo UNJ">
             <span>PTIK C'25</span>
         </div>
         <nav>
@@ -34,7 +34,7 @@
             <a href="#about" class="btn">Get to Know Us</a>
         </div>
         <div class="hero-image">
-            <img src="assets/logo/meme.jpg">
+            <img src="assets/logo/meme.jpg" alt="Hero Image">
         </div>
     </section>
 
@@ -64,13 +64,13 @@
     <section id="gallery" class="section">
         <h2>Gallery</h2>
 
-        <!-- tombol tahun -->
+        <!-- tombol semester -->
         <div class="gallery-buttons">
-            <button onclick="showGallery('2025', event)" class="active">2025</button>
-            <button onclick="showGallery('2026', event)">2026</button>
+            <button onclick="showGallery('smt1', event)" class="active">Semester 1</button>
+            <button onclick="showGallery('smt2', event)">Semester 2</button>
+            <button onclick="showGallery('smt3', event)">Semester 3</button>
         </div>
 
-        <!-- 🔥 FILTER CAKEP -->
         <div class="gallery-filter">
             <button onclick="showAllGallery(); setActiveFilter(this)" class="active">All</button>
             <button onclick="showGirlsGallery(); setActiveFilter(this)">Girls only</button>
@@ -107,4 +107,3 @@
 </body>
 
 </html>
-```

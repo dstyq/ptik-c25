@@ -3,7 +3,7 @@ const members = [
   { name: "Abdurrahman Al Ghifari", ig: "alghip_", photo: "default.jpg" },
   { name: "Adel Janitra Basitul Latif", ig: "godelbedel", photo: "default.jpg" },
   { name: "Adzkiya Vidy Syawallanaa", ig: "adzkiya.vidyy", photo: "4.jpg" },
-  { name: "Alvin Musalim Wildan", ig: "alvino.4dijaya", photo: "default.jpg" },
+  { name: "Alvin Musalim Wildan", ig: "alvino.4dijaya", photo: "23.jpg" },
 
   { name: "Dimas Rifqi Putra Jaelany", ig: "dimmjael", photo: "19.jpg" },
   { name: "Fadhiyah Syafiqah Ramadhani", ig: "ffiiqa_", photo: "7.jpg" },
@@ -15,10 +15,10 @@ const members = [
   { name: "Ma'rifatus Solihah", ig: "m.rftsslhh", photo: "20.jpg" },
   { name: "Mirza Arif Syahbana", ig: "", photo: "default.jpg" },
   { name: "Muhammad Naufal Waiz", ig: "constantinofall", photo: "21.jpg" },
-  { name: "Muhammad Sail Mustajab", ig: "muh.sail.m", photo: "default.jpg" },
+  { name: "Muhammad Sail Mustajab", ig: "muh.sail.m", photo: "24.jpg" },
 
   { name: "Nabilla Gaitsha Diandra", ig: "gaitshanabilla", photo: "16.jpg" },
-  { name: "Nayla Agusthia Mirda", ig: "", photo: "default.jpg" },
+  { name: "Nayla Agusthia Mirda", ig: "naylaagusthia__", photo: "default.jpg" },
   { name: "Philip Joshua Maloma Sihotang", ig: "philipsihotang", photo: "18.jpg" },
   { name: "Piala Dewangga Pudjiyono", ig: "pialadewangga_", photo: "default.jpg" },
   { name: "Raden Radhitya Rizqi Putra Sulistiyo", ig: "", photo: "default.jpg" },

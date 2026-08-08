@@ -2,51 +2,59 @@ const galleryGrid = document.getElementById("galleryGrid");
 
 // DATA
 const galleryData = {
-  "2025": {
+  "smt1": {
     all: [
-      "gallery/2025/1.jpg",
-      "gallery/2025/2.jpg",
-      "gallery/2025/3.jpg",
-      "gallery/2025/4.jpg",
-      "gallery/2025/5.jpg",
-      "gallery/2025/6.jpg",
-      "gallery/2025/7.jpg",
-      "gallery/2025/8.jpg",
-      "gallery/2025/9.jpg"
+      "gallery/smt1/1.jpg",
+      "gallery/smt1/2.jpg",
+      "gallery/smt1/3.jpg",
+      "gallery/smt1/4.jpg",
+      "gallery/smt1/5.jpg",
+      "gallery/smt1/6.jpg",
+      "gallery/smt1/7.jpg",
+      "gallery/smt1/8.jpg",
+      "gallery/smt1/9.jpg"
     ],
     cewe: [
-      "gallery/2025/01.jpg",
-      "gallery/2025/02.jpg",
-      "gallery/2025/03.jpg"
+      "gallery/smt1/01.jpg",
+      "gallery/smt1/02.jpg",
+      "gallery/smt1/03.jpg",
+      "gallery/smt1/04.jpg",
+      "gallery/smt1/05.jpg"
+
     ],
     cowo: [
-      "gallery/2025/001.jpg",
-      "gallery/2025/002.jpg",
-      "gallery/2025/003.jpg",
-      "gallery/2025/004.jpg"
+      "gallery/smt1/001.jpg",
+      "gallery/smt1/002.jpg",
+      "gallery/smt1/003.jpg",
+      "gallery/smt1/004.jpg"
     ]
   },
 
-  // 🔥 TAMBAHAN 2026
-  "2026": {
+  "smt2": {
     all: [
-      "gallery/2026/1.jpg",
-      "gallery/2026/2.jpg",
-      "gallery/2026/3.jpg"
+      "gallery/smt2/1.jpg",
+      "gallery/smt2/2.jpg",
+      "gallery/smt2/3.jpg",
+      "gallery/smt2/4.jpg",
+      "gallery/smt2/5.jpg",
     ],
     cewe: [
-      "gallery/2026/01.jpg",
-      "gallery/2026/02.jpg"
-
+      "gallery/smt2/01.jpg",
+      "gallery/smt2/02.jpg",
+      "gallery/smt2/03.jpg",
+      "gallery/smt2/04.jpg",
+      "gallery/smt2/05.jpg",
+      "gallery/smt2/06.jpg",
+      "gallery/smt2/07.jpg",
     ],
     cowo: [
-      "gallery/2026/2.jpg",
-      "gallery/2026/3.jpg"
+      "gallery/smt2/001.jpg",
+      "gallery/smt2/002.jpg"
     ]
   }
 };
 
-let currentYear = "2025";
+let currentYear = "smt1";
 let currentFilter = "all";
 
 // RENDER
@@ -110,4 +118,4 @@ function setActiveFilter(btn) {
 }
 
 // DEFAULT
-showGallery("2025");
+showGallery("smt1");
