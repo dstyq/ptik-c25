@@ -249,8 +249,9 @@ body {
   text-decoration: none;
 }
 
-.ig-link img {
+.ig-link img, .ig-link svg {
   width: 22px;
+  height: 22px;
 }
 
 /* FOOTER */
