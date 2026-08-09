@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PTIK C UNJ</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- AOS Animation Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS bawaan lu -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+        /* Efek klik tombol */
+        .btn { transition: all 0.3s ease; }
+        .btn:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+        
+        /* Efek hover di navbar */
+        .navbar nav a { transition: all 0.3s ease; display: inline-block; }
+        .navbar nav a:hover { transform: translateY(-3px); opacity: 0.7; }
+        
+        .hero-image img { transition: transform 0.5s ease; }
+        .hero-image img:hover { transform: scale(1.05) rotate(2deg); }
+
+        /* Efek tombol IG */
+        .ig-link { transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 8px; }
+        .ig-link:hover { transform: scale(1.1); color: #E1306C; } /* Berubah warna khas IG */
+        .ig-link svg { transition: transform 0.3s ease; }
+        .ig-link:hover svg { transform: rotate(15deg); stroke: #E1306C; }
+    </style>
 </head>
+
 <body>
 
     <!-- NAVBAR -->
-    <header class="navbar">
+    <header class="navbar" data-aos="fade-down" data-aos-duration="800">
         <div class="logo">
             <img src="assets/logo/unj.jpg" alt="Logo UNJ">
             <span>PTIK C'25</span>
@@ -26,18 +52,18 @@
 
     <!-- HERO -->
     <section class="hero">
-        <div class="hero-text">
+        <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
             <h1>Pendidikan Teknik Informatika dan Komputer</h1>
             <p>Website Kelas C PTIK'25. Kenalan dulu, yuk!</p>
             <a href="#about" class="btn">Get to Know Us</a>
         </div>
-        <div class="hero-image">
+        <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <img src="assets/logo/meme.jpg" alt="Hero Image">
         </div>
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="section about">
+    <section id="about" class="section about" data-aos="fade-up" data-aos-duration="1000">
         <h2>About Us</h2>
         <p>
             We are Class C of the Informatics and Computer Engineering Education (PTIK'25) program
@@ -47,8 +73,9 @@
     </section>
 
     <!-- MEMBERS -->
-    <section id="members" class="section">
+    <section id="members" class="section" data-aos="fade-up" data-aos-duration="1000">
         <h2>Class Members</h2>
+        
         <div id="memberGrid" class="member-grid"></div>
 
         <div class="pagination">
@@ -59,7 +86,7 @@
     </section>
 
     <!-- GALLERY -->
-    <section id="gallery" class="section">
+    <section id="gallery" class="section" data-aos="zoom-in" data-aos-duration="1000">
         <h2>Gallery</h2>
 
         <!-- tombol semester -->
@@ -80,7 +107,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section contact">
+    <section id="contact" class="section contact" data-aos="fade-up" data-aos-duration="1000">
         <h2>Stay Connected</h2>
         <p class="contact-desc">
             Want to know more about our class or see our daily moments?
@@ -99,11 +126,20 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 PTIK Class C · State University of Jakarta</p>
+        <p>© 2026 PTIK Class C · State University of Jakarta</p>
         <small>Made by Class C PTIK 2025</small>
     </footer>
 
-    <!-- JS -->
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, 
+            offset: 100 
+        });
+    </script>
+
+    <!-- JS Bawaan Lu -->
     <script src="js/members.js"></script>
     <script src="js/gallery.js"></script>
 </body>
